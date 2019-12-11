@@ -1,6 +1,6 @@
 # ngPortfolio
 
-git push -u origin master
+Designing my portfolio website with angular8 and Github API to fetch my name, repos, followers and those that am following. You can clone or fork it try on your own.
 
 ## Development server
 
