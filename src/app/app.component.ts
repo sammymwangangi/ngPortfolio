@@ -1,9 +1,12 @@
 import { Component } from '@angular/core';
+import { HttpModule  } from '@angular/http';
+import { GithubService } from './github.service';
+
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  template: '<app-github></app-github>',
+  providers: [HttpModule , GithubService]
 })
 export class AppComponent {
   title = 'sam';
